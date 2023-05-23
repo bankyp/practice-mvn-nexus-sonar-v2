@@ -23,7 +23,7 @@ Publishing artifact to Nexus snapshot and release repo using maven.
 7. Add server user name and pwd in setting.xml (Encrypted recommended).
 8. Edit pom.xml and add repository and snapshot repository in distribution management tag DEFAULT/DONE
 9. Mark id should match in step 7 with server id of settings.xml, UPDATE NEXUS IP
-10. Run the following `maven`/`mvn` commands to validate/package/deploy your app artifacts remotely
+10. Run the following `maven`/`mvn` commands to validate/package/deploy your app artifacts remotely. Search Google for Maven Lifecycle
    - `mvn validate`   (validate the project is correct and all necessary information is available.)
    - `mvn compile`    (compile the source code of the project)
    - `mvn test`       (run tests using a suitable unit testing framework. These tests should not require the code be packaged or deployed.)
